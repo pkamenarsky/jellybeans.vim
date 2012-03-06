@@ -359,6 +359,10 @@ hi! link Error ErrorMsg
 hi! link MoreMsg Special
 call s:X("Question","65C254","","","Green","")
 
+" Custom mods
+call s:X("NonText","606060","222222","",s:termBlack,"")
+call s:X("LineNr","605958","222222","none",s:termBlack,"")
+call s:X("Normal","e8e8d3","222222","","White","")
 
 " Spell Checking
 
